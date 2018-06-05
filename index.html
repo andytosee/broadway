@@ -2,39 +2,41 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/resources/style.css">
+    <link rel="stylesheet" href="./resources/style.css">
     <title></title>
   </head>
   <body>
-    <h1>Broadway Design</h1>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Process</li>
-        <li>Work</li>
-        <li>Team</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+
+    <div class="header">
+      <h1>Broadway Design</h1>
+      <nav>
+        <p class="nav-button"><a href="#">Home</a></p>
+        <p class="nav-button"><a href="#">Process</a></p>
+        <p class="nav-button"><a href="#">Work</a></p>
+        <p class="nav-button"><a href="#">Team</a></p>
+        <p class="nav-button"><a href="#">Contact</a></p>
+      </nav>
+    </div>
+
     <div class="process-section">
       <h2>Our Process</h2>
 
-      <div class="identity">
-        <img src="" alt="">
-        <h4>Identity</h4>
-        <p>We focus on the most important details.</p>
+      <div class="identify">
+        <img src="resources/images/identify.svg" alt="arrow" class="center">
+        <h4>Identify</h4>
+        <p class="process">We focus on the most important details.</p>
       </div>
 
       <div class="understand">
-        <img src="" alt="">
+        <img src="resources/images/understand.svg" alt="2 arrows in circle" class="center">
         <h4>Understand</h4>
-        <p>We study our projects inside and out</p>
+        <p class="process">We study our projects inside and out</p>
       </div>
 
       <div class="execute">
-        <img src="" alt="">
+        <img src="resources/images/execute.svg" alt="big arrow pointing to the right" class="center">
         <h4>Execute</h4>
-        <p>We put everything we have into our work</p>
+        <p class="process">We put everything we have into our work</p>
       </div>
 
       <div class="info-section">
@@ -50,6 +52,7 @@
         </div>
 
         <div class="Contact">
+          <h5>Contact</h5>
           <p>Phone: (555)-555-5555</p>
           <p>E-mail: test@example.com</p>
           <p>Twitter: @test</p>
@@ -58,15 +61,16 @@
     </div>
 
     <div class="footer">
-      <p>&copy Broadway 2016</p>
-      <ul>
-        <li>Home</li>
-        <li>Process</li>
-        <li>Work</li>
-        <li>Team</li>
-        <li>Contact</li>
-      </ul>
+      <p>
+        &copy Broadway 2016
+        <a class="nav-button" href="#">Home</a>
+        <a class="nav-button" href="#">About</a>
+        <a class="nav-button" href="#">Work</a>
+        <a class="nav-button" href="#">Team</a>
+        <a class="nav-button" href="#">Contact</a>
+      </p>
 
+      </ul>
     </div>
   </body>
 </html>
